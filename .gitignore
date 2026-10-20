@@ -1,0 +1,24 @@
+node_modules/
+client/dist/
+server/dist/
+.env
+.env.*
+!.env.example
+*.log
+
+# Uploaded complaint evidence and user files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Local temporary scripts
+server/check-admins-temp.js
+# Temporary admin utilities
+server/check-admins-temp.js
+server/create-admin.js
+server/createStaff.js
+
+# Backup files
+*.backup
+*.deadline.backup
+*.priority.backup
+
